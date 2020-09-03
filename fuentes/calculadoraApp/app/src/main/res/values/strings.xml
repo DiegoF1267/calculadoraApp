@@ -3,4 +3,10 @@
     <string name="texto1">holi mundo</string>
     <string name="texto2">holi diego</string>
     <string name="btn_saludar">saludo</string>
+    <string name="n1Label">N1</string>
+    <string name="n2Label">N2</string>
+    <string name="sumaText">+</string>
+    <string name="restaText">-</string>
+    <string name="multiplicacionText">*</string>
+    <string name="divicionText">/</string>
 </resources>
