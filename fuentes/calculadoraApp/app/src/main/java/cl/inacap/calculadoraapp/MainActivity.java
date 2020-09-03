@@ -21,22 +21,22 @@ public class MainActivity extends AppCompatActivity {
     public void sumar (View v){
         int n1 = Integer.parseInt(this.n1Txt.getText().toString());
         int n2 = Integer.parseInt(this.n2Txt.getText().toString());
-        Toast.makeText(this, "La suma es"+(n1+n2), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "La suma es" + (n1+n2), Toast.LENGTH_SHORT).show();
 
     }
     public void restar (View v){
         int n1 = Integer.parseInt(this.n1Txt.getText().toString());
         int n2 = Integer.parseInt(this.n2Txt.getText().toString());
-        Toast.makeText(this, "La resta es"+(n1-n2), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "La resta es" + (n1-n2), Toast.LENGTH_SHORT).show();
     }
     public void multiplicar (View v){
         int n1 = Integer.parseInt(this.n1Txt.getText().toString());
         int n2 = Integer.parseInt(this.n2Txt.getText().toString());
-        Toast.makeText(this, "La multiplicacion es"+(n1*n2), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "La multiplicacion es" + (n1*n2), Toast.LENGTH_SHORT).show();
     }
     public void divicion (View v){
         int n1 = Integer.parseInt(this.n1Txt.getText().toString());
         int n2 = Integer.parseInt(this.n2Txt.getText().toString());
-        Toast.makeText(this, "La multiplicacion es"+(n1*n2), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "La divicion es" + (n1/n2), Toast.LENGTH_SHORT).show();
     }
 }
